@@ -39,7 +39,8 @@ unnecessary and counterproductive optimization: global string fields for fizz, b
 /= provokes float type result
 //= provokes int type result
 
-### data structures
-isn't the answer always hashmap?
-
-
+**[876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/description/)**
+you need to know how long the list is to figure out the midpoint - this requires iterating through the list
+naive attempt is iterating through list to get length, determining the right middle node to return, and iterating through list to get to middle node
+next attempt should do both at once - track both the tail and middle node
+key realization is that for every time the tail advances by 2 nodes the middle node advances 1 node
