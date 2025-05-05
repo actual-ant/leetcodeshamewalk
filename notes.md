@@ -44,3 +44,6 @@ you need to know how long the list is to figure out the midpoint - this requires
 naive attempt is iterating through list to get length, determining the right middle node to return, and iterating through list to get to middle node
 next attempt should do both at once - track both the tail and middle node
 key realization is that for every time the tail advances by 2 nodes the middle node advances 1 node
+
+**[383. Ransom Note](https://leetcode.com/problems/ransom-note/description/)**
+room for improvement! eesh
